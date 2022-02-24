@@ -1,0 +1,52 @@
+@media ( min-width:320px) and ( max-width:586px) {
+    .salider_text h2{font-size: 14px;margin-bottom: 10px;padding: 3px 5px;}
+    .salider_text h1{font-size: 16px;padding: 3px 5px;}
+    .common_button a { font-size: 12px;padding: 3px 5px;}
+    .irrigation_box {padding: 40px 0 30px 0;}
+    .manage_text h4 { font-size: 16px;padding-left: 50px;}
+    .text_with_image h2{font-size: 48px;padding-left:0px;}
+    .vidarbha_text h2{font-size: 16px;    padding-left: 90px;}
+    .irrigation_box_img {padding:0px}
+    .irrigation_box_img img {position:static;margin: auto; display: block;}
+    header{padding:0 0}
+    .sub_form input {width: 60.5%;}
+    .sub_form button{font-size: 12px;padding: 4px 8px;}
+    .footer_form_sub{padding-top: 35px;}
+    .follow_ul ul li a img {width: 26px; height: 26px;}
+    .about_text { padding: 0 0px;}
+    .about_sec {padding: 48px 0px;background-position: 0px -270%;}
+    .hydro_bottom{padding-bottom: 35px;}
+}
+@media(min-width:585px) and (max-width:736px) {
+    
+    .irrigation_box {padding: 40px 0 30px 0;}
+    .manage_text h4 { font-size: 30px;padding-left: 114px;}
+    .text_with_image h2{font-size:94px;padding-left:0px;}
+    .vidarbha_text h2{font-size:30px;    padding-left:140px;}
+    .irrigation_box_img {padding:0px}
+    .irrigation_box_img img {position:static;margin: auto; display: block;}
+    .about_text p{max-width: 100%;}
+}
+@media(min-width:768px) and (max-width:1023px){
+    .irrigation_box {padding: 40px 0 30px 0;}
+    .manage_text h4 { font-size: 36px;padding-left: 114px;}
+    .text_with_image h2{font-size:100px;padding-left:0px;}
+    .vidarbha_text h2{font-size:36px;    padding-left:140px;}
+    .irrigation_box_img {padding:0px}
+    .irrigation_box_img img {position:static;margin: auto; display: block;}
+    .about_text p{max-width: 100%;}
+    .footer_form_sub{padding-top: 35px;}
+    .about_sec{background-repeat: repeat-x;padding: 80px 0px;background-position: 0 -106%;}
+    header{padding:0px 0px;}
+    
+}
+
+@media(min-width:769px) and (max-width:1024px) {
+    .sub_form input {width: 71.5%;}
+    .follow_ul ul li a img { width: 24px; height: 24px;}
+    .follow_ul ul li{padding:0 5px;}
+    .manage_text h4 { font-size: 36px;padding-left: 114px;}
+    .text_with_image h2{font-size:115px;padding-left:0px;}
+    .vidarbha_text h2{font-size:36px;    padding-left:256px;}
+
+}

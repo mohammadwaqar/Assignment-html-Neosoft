@@ -1,0 +1,425 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Signika:wght@300;400;500;600;700&family=Source+Sans+Pro&display=swap');
+body{
+	font-family: 'Montserrat';
+}
+h1,h2,h3,h4,h5,h6,p
+{margin-bottom:0rem;}
+a{text-decoration:none !important;}
+.container{
+  max-width:1200px;
+  width:100%;
+}
+/* :root css open */
+:root{
+ --heading_color:#505050;
+ --white_color:#ffffff;
+ --white_criem:#fbfbfb;
+ --dark_gray:#505050;
+ --blue_color:#265781;
+ --green_color: #52b27b;
+ --yellow_color:#f2e162;
+ --green_dark:#1b7642;
+ --heading_color_dark:#272727;
+ --brown_color:#3f3531;
+
+}
+/* :root css close */
+
+/* ############################################# */
+/* common css open */
+.bg-green{
+  background-color: var(--green_dark);
+}
+.common_ul ul{
+  list-style-type: none;
+}
+.common_ul ul li{
+float: left;
+}
+.common_ul ul li a{
+  text-decoration: none;
+  }
+  .common_button a{
+    font-size:22px;
+    padding: 7px 14px;
+  }
+  .btn_white{
+    background-color: var(--white_color);
+    color:var(--heading_color_dark);  
+  }
+  .btn_green{
+    background-color:var(--green_dark);
+    color:var(--white_color);  
+  }
+  a:hover{
+    color: inherit!important;
+  }
+/* common css close *//* ############################################# */
+
+
+/* ############################################# */
+/* header css open */
+header{
+  filter: drop-shadow(0px 3px 3.5px rgba(0,0,0,0.16));
+background-color:var(--white_color);
+padding:18px 0;
+}
+ .logo_text h2{
+   max-width:265px;
+   width: 100%;
+  font-size: 15px;
+  color:var(--heading_color) ;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding:0 10px;
+ }
+ .top_menu_ul ul a{
+   font-size: 14px;
+   color: var(--heading_color);
+   text-transform: capitalize;
+   padding: 0 10px;
+ }
+ .font_size_ul ul li a{
+   color: var(--dark_gray);
+   font-weight: bold;
+   padding: 0 10px;
+ }
+ .font_size_ul ul li:nth-child(1) a{
+   font-size: 12px;
+ }
+ .font_size_ul ul li:nth-child(2) a{
+  font-size: 14px;
+}
+.font_size_ul ul li:nth-child(3) a{
+  font-size: 16px;
+}
+.lang_select select{
+  border:none;
+}
+.lang_select select:focus{
+  outline:none;
+}
+.lang_select select {
+  background: url(../images/icon/lang-arrow.png) no-repeat;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-position: 80% 50%;
+  padding: 0 20px 0px 15px;
+  border:2px solid var(--blue_color);
+  border-top: none;
+  border-bottom: none;
+}
+.color_swicher{
+  border-right: 2px solid var(--blue_color);
+  padding: 4px 8px;
+}
+.color_swicher ul li{
+  padding: 0 5px;
+}
+.color_box{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor:pointer;
+}
+.color_blue{
+  background-color: var(--blue_color);
+}
+.color_green{
+  background-color: var(--green_color);
+}
+.color_yellow{
+  background-color: var(--yellow_color);
+}
+.header_search{
+  padding:0 10px;
+}
+.menu_line_two{
+  padding-top: 10px;
+}
+.menu_line_two ul li a{
+  color: var(--heading_color);
+   text-transform: capitalize;
+   padding: 0 6px;
+   font-size: 14px;
+}
+.menu_line_two ul li::after{
+  content: '|';
+  }
+  .menu_line_two ul li:last-child:after{
+    content:none;}
+
+/* header css close */
+/* mobile nav bar css open */
+.mobile-list ul li{
+list-style-type: none;
+}
+.mobile-list ul li a{
+  color: var(--white_color);
+}
+.mobile_web_font ul li a{
+  color: var(--white_color);
+}
+.mobile_lang select{
+  border-color:var(--white_color);
+  color: var(--white_color);
+}
+.mobile_lang select option{
+  color: var(--heading_color_dark);
+}
+/* mobile nav bar css close */
+
+/* ############################################# */
+
+/*  section 01 salider css open */
+.salider_box{
+  position: relative;
+}
+.salider_text_box{
+  position:absolute;
+  bottom:15%;
+}
+.salider_text h1{
+  font-size: 57px;
+  color: var(--white_color);
+  font-weight:bold;
+  background-color: var(--green_dark);
+  display: inline-block;
+  padding:5px 15px;
+  margin-bottom: 10px;
+}
+.salider_text h2{
+  font-size:35px;
+  color: var(--white_color);
+  font-weight:bold;
+  background-color: var(--green_dark);
+  padding:5px 10px;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+.manage_text h4{
+  font-size: 43px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--heading_color);
+  padding-left: 126px;
+}
+
+
+
+/*  section 01 salider css close */
+
+/* ############################################# */
+
+/* Section 02 services css open  */
+.irrigation_sec{
+  background-color: var(--white_criem);
+}
+.text_with_image h2{
+  background-image: url(../images/banner-1.jpg);
+            background-repeat: repeat;
+            -webkit-background-clip:text;
+            -webkit-text-fill-color: transparent;
+            font-size: 120px;
+            background-position: 15% 22%;
+            text-transform: uppercase;
+            font-family: 'Steelfish Rg', 'helvetica neue',
+                     helvetica, arial, sans-serif;
+            font-weight: 800;
+            -webkit-font-smoothing: antialiased;
+            padding-left: 60px;
+            line-height:1;
+}
+.vidarbha_text h2{
+  font-size: 43px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--heading_color);
+  padding-left: 296px;
+}
+.irrigation_box{
+  padding:138px 0 121px 0;
+}
+.irrigation_box_img{
+  padding:155px 0 121px 0;
+}
+.irrigation_box_img img{
+  position: relative;
+  right:40%;
+}
+.hydro_bottom{
+  max-width: 878px;
+  width: 100%;
+  margin:auto;
+  padding-bottom:125px;
+}
+.hydro_box h5{
+  max-width: 163px;
+  width: 100%;
+  margin: auto;
+  font-size: 16px;
+  color:var(--heading_color);
+  font-weight: 900;
+  padding-top:20px;
+  text-transform: uppercase;
+
+}
+/* Section 02 services css close  */
+
+/* section 03 css about vidc open  */
+.about_sec{
+  background:url(../images/side-pettern.png),var(--brown_color);
+  background-repeat: no-repeat;
+  padding: 80px 0px;
+}
+.video_about{
+  max-width:556px;
+  height: 352px;
+  width: 100%;
+  border-radius:15px;
+}
+.about_video video[poster]{
+  max-width:556px;
+  width:100%;
+  border-radius:15px;
+  }
+  .about_text{
+    padding:0 40px;
+  }
+  .about_text h4{
+    font-size: 36px;
+    color: var(--white_color);
+    font-weight: 900;
+    padding-bottom: 20px;
+  }
+  .about_text p{
+    max-width: 440px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--white_color);
+  }
+/* section 03 css about vidc close  */
+
+/* footer css open */
+ footer{
+  margin-top: 85px;
+   background: url(../images/tree_border.png),var(--green_dark);
+   background-repeat: repeat-x;
+ }
+ .footer_form_sub{
+   padding-top:135px;
+   max-width:674px;
+   width: 100%;
+ }
+ .footer_form_sub h6{
+   font-size: 22px;
+   font-weight: 700;
+   color:var(--white_color);
+   padding-bottom: 18px;
+ }
+ .sub_form{
+   background-color:#27272730;
+   border-radius:20px;
+   padding:5px 10px;
+ }
+ .sub_form input[type=email]{
+   background-color:transparent !important;
+   border: transparent;
+   color: var(--white_color);
+ }
+ .sub_form input::placeholder{
+   color:var(--white_color);
+   font-size: 14px;
+ }
+ .sub_form input:focus{
+  outline: none;
+ }
+ .sub_form input {
+  width: 72.5%;
+}
+.sub_form button{
+  font-size: 16px;
+  text-transform: uppercase;
+  border:none;
+  font-weight: bold;
+  border-radius:20px;
+  padding:5px 15px;
+}
+.footer_ul h3{
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--white_color);
+}
+.footer_ul ul{
+  list-style-type: none;
+}
+.footer_ul ul li a{
+font-size:14px;
+padding: 3px 0;
+display: inline-block;
+color: var(--white_color);
+}
+.footer_ul ul li a:hover{
+  color:var(--white_color) !important;
+}
+.footer_ul ul li:first-child a{
+  padding-top:12px;
+}
+.footer_copyright{
+  font-size:10px;
+  color: var(--white_color);
+}
+.contact_text h5{
+ color:var(--white_color);
+ font-size:18px;
+}
+.contact_text p{
+  font-size: 12px;
+  color: var(--white_color);
+}
+
+.footer_contact{
+  margin-top:105px;
+  background-color:#27272730;
+  padding:35px 34px;
+}
+.contact_icon{
+  padding-bottom:20px;
+  margin-bottom: 22px;
+}
+.contact_text{
+  border-bottom:1px solid var(--white_color);
+  padding-bottom:20px;
+  margin-bottom: 22px;
+}
+.contact_text a{
+  text-decoration: none;
+  color: var(--white_color);
+  font-size: 14px;
+}
+.contact_text a:hover{
+  color: var(--white_color) !important;
+}
+.follow_ul ul li{
+  padding: 0px 7px;
+  color: var(--white_color);
+}
+.follow_ul ul li a img{
+  width: 32px;
+  height: 32px;
+}
+.follow_ul ul li:first-child::after{
+  content: '|';
+  padding-left: 12px;
+}
+picture{
+  width: 100%;
+}
+/* footer css close */
